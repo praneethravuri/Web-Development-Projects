@@ -1,0 +1,100 @@
+/* Background Image and Font */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Office.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+.main_nav {
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.main_nav li {
+  display: inline-block;
+}
+.main_nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+.main_nav li a:hover {
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.6s ease;
+}
+
+/* Logo */
+.logo img {
+  width: 100px;
+  height: auto;
+  float: left;
+  margin-left: 15px;
+}
+
+/* Heading */
+.main_heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main_heading h1 {
+  color: white;
+  font-size: 70px;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Buttons */
+.button {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid whitesmoke;
+  padding: 10px 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.6s ease;
+}
+
+/* Lower Section */
+.lower_section {
+  color: white;
+  position: absolute;
+  top: 90%;
+}
+.lower_section,
+h4 {
+  font-weight: bold;
+}
+.social_media_icons {
+  position: absolute;
+  top: 92.23%;
+  left: 10%;
+}
+.social_media_icons,
+img {
+  width: 13%;
+  padding-left: 10px;
+}
+
+/* Tagline */
+.tagline {
+  color: whitesmoke;
+  font-style: italic;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,43 @@
+.section_container {
+  border-top: 2px solid #e87722;
+  border-bottom: 2px solid #e87722;
+  width: 100%;
+  height: 700px;
+  background-image: url("./Main\ Picture.jpg");
+}
+.section_text {
+  position: relative;
+  bottom: 500px;
+  right: 50px;
+}
+.section_text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #00629b;
+  text-align: right;
+}
+.buttons {
+  bottom: 500px;
+  position: relative;
+  display: flex;
+  left: 1250px;
+}
+.buttons .about_us_button,
+.contact_us_button {
+  margin: 10px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  background: #00629b;
+  color: whitesmoke;
+  border: 2px solid #00629b;
+}
+button:hover {
+  background: #e87722;
+  border: 2px solid #e87722;
+  transition: 0.4s ease-in-out;
+}

@@ -1,0 +1,40 @@
+header{
+    margin: auto;
+}
+.logos{
+    height: 110px;
+    margin: auto;
+    width: 85%;
+    display: flex;
+}
+#sb_logo{
+    flex: 2;
+}
+
+/* Navigation */   
+nav{  
+    background-color: #00629B;
+    margin: auto;
+} 
+.menu_links{
+    
+    height: 40px;
+    margin: auto;
+    width: 55%;
+    display: flex;
+}
+.menu_links li {
+    margin: auto;
+    padding: 9px 32px ;
+    border-right: 2px solid rgba(80, 79, 79, 0.61) ;
+}
+.menu_links li:hover{
+    border-right: 2px solid #47ade7 ;
+    background-color: #47ade7;
+    transition: all 0.6s ease-out 0s;
+}
+.menu_links li a{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
