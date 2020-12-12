@@ -1,0 +1,43 @@
+
+
+.company_logo{
+    cursor: pointer;
+}
+
+.company_logo img{
+    width: 225px;
+}
+.company_logo img:hover{
+    transition: all 0.3s ease-in-out ;
+    transform: scale(1.05);
+}
+
+.top_nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.top_nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.top_nav li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.top_nav{
+    margin-right: 130px;
+}

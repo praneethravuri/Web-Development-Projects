@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif
+}
+button{
+    font-family: 'Poppins', sans-serif
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header Section */
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+
+/* Logo Container, Logo */
+.logo_container, .nav_links, .cart{
+    display: flex;
+}
+.logo_container{
+    flex: 1;
+}
+.logo_container, #layton_laptop_logo, img{
+    margin-top: 10px;
+}
+
+.logo{
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(68, 67, 67);
+}
+
+
+/* Navigation */
+nav{
+    flex: 2;
+}
+.nav_links{
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.nav_link{
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav_links, li, a:hover{
+    color: black;
+}
+
+
+/* Cart */
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+.cart,#cart_logo{
+    width: 65%;
+}
+
+
+/* Presentation, Introduction, Intro-text, Call To Action */
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction{
+    flex: 1;
+}
+.intro_text h1{
+    font-size: 30px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #66ff66);
+    /* Gradient on text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro_text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta_select{
+    border: 2px solid orangered;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta_add{
+    background: orangered;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    margin-left:10px;
+}
+.cover{
+    flex: 1;
+}
+.cover img{
+    height: 60vh;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+.cta .cta_select a{
+    color: red;
+}
+.cta .cta_add a{
+    color: whitesmoke;
+}
+
+/* Circles */
+.big_circle{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.4;
+    height: 80%;
+}
+.medium_circle{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.4;
+}
+.small_circle{
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+/* Laptop Select */
+.laptop_select{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 59%;
+}
+
+
+/* Animations */
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@media screen and (max-width: 1024px){
+    .presentation{
+        flex-direction: column;
+    }
+    .introduction{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .intro_text h1{
+        font-size: 30px;
+    }
+    .intro_text p{
+        font-size: 18px;
+    }
+    .cta{
+        padding: 10px 0px 0px 0px;
+    }
+    .laptop_select{
+        bottom: 5%;
+        right: 50%;
+        width: 50%;
+        transform: translate(50%,5%);
+    }
+}

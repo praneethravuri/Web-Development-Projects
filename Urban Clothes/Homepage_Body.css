@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    display: flex;
+    /* Push left and right content to the sides and place the middle content in the center */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 30px 15px 30px;
+}
+.bell_icon img{
+    width: 5%;
+    background: transparent;
+    position: fixed;
+    margin-top: 450px;
+    margin-left: 1445px;
+    cursor: pointer;
+}
+body{
+    background-color: #24252A;
+}

@@ -1,0 +1,25 @@
+.bottom_nav ul{
+    text-align: center;
+}
+
+.bottom_nav li{
+    display: inline-block;
+    padding:10px 20px;
+}
+.bottom_nav ul, .bottom_nav li, .bottom_nav a{
+    background-color: rgb(25, 25, 27);
+}
+.bottom_nav a{
+    font-size: 13px;
+}
+
+.bottom_nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.bottom_nav li a:hover{
+    color: #0088a9;
+}
+.social_media_links img{
+    width: 50%;
+}

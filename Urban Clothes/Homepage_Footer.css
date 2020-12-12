@@ -1,0 +1,18 @@
+.footer_container{
+    height: 100px;
+    background-color: #edf0f1;
+}
+.footer_container a{
+    color: #24252A;
+}
+.footer_container li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer_container ul{
+    text-align: center;
+}
+.footer_container a:hover{
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
