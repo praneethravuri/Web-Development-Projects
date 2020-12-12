@@ -1,0 +1,31 @@
+header{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    height: 18vh;
+}
+header .logo_container img{
+    width: 200px;
+}
+nav{
+    flex: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul li{
+    margin: auto;
+    margin-top: 70px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+ul li a:hover{
+    box-shadow: inset 0px -3px 0 0 #e50914;
+    transition: 0.5s ease-in-out;
+}
